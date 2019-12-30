@@ -14,29 +14,30 @@
     - Officeツール：Office365
 
 3. 追加したアクティビティパッケージ
+
     - UiGo!
-        かんたんExcelアクティビティパック(UiTeam.Excel.Activities v1.1.0)
+        - かんたんExcelアクティビティパック(UiTeam.Excel.Activities v1.1.0)
 
 ## 初期設定
 
 1. ./data/configを編集する
 
     - Mode
-        ファイルの指定方法を設定する
-        Config：Configにて指定
-        Input：Inputファイルをユーザ指定
+        - ファイルの指定方法を設定する
+        - Config：Configにて指定
+        - Input：Inputファイルをユーザ指定
     - Data_Path
-        入出力ファイルのフルパス
+        - 入出力ファイルのフルパス
     - Data_SheetName
-        処理対象のシート名
+        - 処理対象のシート名
 
 2. 入出力ファイルの形式
 
     - Excelファイル(xlsx)
     - ヘッダーは必須
     - 列項目
-        #：行番号
-        Path：調査対象フォルダのフルパス(必須項目)
+        - #：行番号
+        - Path：調査対象フォルダのフルパス(必須項目)
     - 列は2列以上存在すること
     - シート名はConfigで設定した名前であること
 
